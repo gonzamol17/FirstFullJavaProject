@@ -1,0 +1,881 @@
+12/01/2023 18:35:15 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:35:15 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:35:20 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:35:20  INFO TestBase:77 - This logs for info
+12/01/2023 18:35:24 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:35:30  INFO TestBase:103 - Test execution completed
+12/01/2023 18:37:38 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:37:39 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:37:39  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:37:40 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:37:40 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:37:44 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:37:44  INFO TestBase:77 - This logs for info
+12/01/2023 18:37:47 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:37:55  INFO TestBase:103 - Test execution completed
+12/01/2023 18:43:46 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:43:47 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:43:47  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:43:47 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:43:47 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:43:52 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:43:52  INFO TestBase:77 - This logs for info
+12/01/2023 18:43:55 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:44:02  INFO TestBase:103 - Test execution completed
+12/01/2023 18:47:16 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:47:17 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:47:18 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:47:18  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:47:18 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:47:18 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:47:23 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:47:23  INFO TestBase:77 - This logs for info
+12/01/2023 18:47:26 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:47:30  INFO TestBase:103 - Test execution completed
+12/01/2023 18:49:00 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:49:02 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:49:02  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:49:02 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:49:02 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:49:06 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:49:06  INFO TestBase:77 - This logs for info
+12/01/2023 18:49:10 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:49:23  INFO TestBase:103 - Test execution completed
+12/01/2023 18:50:14 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:50:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:50:16  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:50:16 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:50:16 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:50:20 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:50:20  INFO TestBase:77 - This logs for info
+12/01/2023 18:50:24 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:50:31  INFO TestBase:103 - Test execution completed
+12/01/2023 18:58:12 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:58:13 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:58:13  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:58:13 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:58:13 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 18:58:18 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 18:58:18  INFO TestBase:77 - This logs for info
+12/01/2023 18:58:22 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 18:58:29  INFO TestBase:103 - Test execution completed
+12/01/2023 18:59:54 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 18:59:56 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 18:59:56  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 18:59:56 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 18:59:56 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 19:00:00 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 19:00:00  INFO TestBase:77 - This logs for info
+12/01/2023 19:00:05 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 19:00:12  INFO TestBase:103 - Test execution completed
+12/01/2023 19:01:04 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:01:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:01:06  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 19:01:06 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 19:01:06 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 19:01:10 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 19:01:10  INFO TestBase:77 - This logs for info
+12/01/2023 19:01:14 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 19:01:20  INFO TestBase:103 - Test execution completed
+12/01/2023 19:03:31 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:03:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:03:32  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 19:03:33 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 19:03:33 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 19:03:37 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 19:03:37  INFO TestBase:77 - This logs for info
+12/01/2023 19:03:40 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 19:03:47  INFO TestBase:103 - Test execution completed
+12/01/2023 19:07:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:07:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ================ SORTING
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+12/01/2023 19:07:07 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+12/01/2023 19:07:07  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+12/01/2023 19:07:07 DEBUG TestBase:50 - Config file loaded!!!
+12/01/2023 19:07:07 DEBUG TestBase:61 - OR file loaded!!!
+12/01/2023 19:07:10 DEBUG TestBase:76 - Chrome launched!!!
+12/01/2023 19:07:10  INFO TestBase:77 - This logs for info
+12/01/2023 19:07:14 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+12/01/2023 19:07:21  INFO TestBase:103 - Test execution completed
+18/01/2023 18:09:25 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@5a4aa2f2] -1349912938
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@5a4aa2f2] 589601130
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@5a4aa2f2] 2121841711
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:09:27 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:09:27  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:09:27 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:09:27 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:09:33 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:09:33  INFO TestBase:77 - This logs for info
+18/01/2023 18:09:37 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:09:48  INFO TestBase:103 - Test execution completed
+18/01/2023 18:11:01 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:11:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:11:03  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:11:04 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:11:04 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:11:08 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:11:08  INFO TestBase:77 - This logs for info
+18/01/2023 18:11:12 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:11:19  INFO TestBase:103 - Test execution completed
+18/01/2023 18:24:50 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@429bd883] -1747243993
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@429bd883] 192270075
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@429bd883] 1724510656
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:24:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:24:52  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:24:52 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:24:52 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:24:56 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:24:56  INFO TestBase:77 - This logs for info
+18/01/2023 18:25:00 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:25:07  INFO TestBase:103 - Test execution completed
+18/01/2023 18:30:41 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:30:42 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:30:42  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:30:42 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:30:42 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:30:47 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:30:47  INFO TestBase:77 - This logs for info
+18/01/2023 18:30:50 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:30:58  INFO TestBase:103 - Test execution completed
+18/01/2023 18:32:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:32:12 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:32:12  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:32:12 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:32:12 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:32:16 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:32:16  INFO TestBase:77 - This logs for info
+18/01/2023 18:32:20 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:32:32  INFO TestBase:103 - Test execution completed
+18/01/2023 18:33:44 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:33:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:33:45  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:33:46 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:33:46 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:33:50 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:33:50  INFO TestBase:77 - This logs for info
+18/01/2023 18:33:54 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:34:00  INFO TestBase:103 - Test execution completed
+18/01/2023 18:46:56 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -1986479722
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_jsDelays.selectBtnJSDelays()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] -46965654
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_jsDelays@345965f2] 1485274927
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ================ SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+18/01/2023 18:46:58 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+18/01/2023 18:46:58  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+18/01/2023 18:46:58 DEBUG TestBase:50 - Config file loaded!!!
+18/01/2023 18:46:58 DEBUG TestBase:61 - OR file loaded!!!
+18/01/2023 18:47:02 DEBUG TestBase:76 - Chrome launched!!!
+18/01/2023 18:47:02  INFO TestBase:77 - This logs for info
+18/01/2023 18:47:06 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+18/01/2023 18:47:14  INFO TestBase:103 - Test execution completed
+19/01/2023 18:24:14 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -1986479722
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -2009191176
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] 1485274927
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:16 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:16  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+19/01/2023 18:24:16 DEBUG TestBase:50 - Config file loaded!!!
+19/01/2023 18:24:16 DEBUG TestBase:61 - OR file loaded!!!
+19/01/2023 18:24:22 DEBUG TestBase:76 - Chrome launched!!!
+19/01/2023 18:24:22  INFO TestBase:77 - This logs for info
+19/01/2023 18:24:26 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+19/01/2023 18:24:34  INFO TestBase:103 - Test execution completed
+19/01/2023 18:24:56 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@f0f2775] 1682864921
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@f0f2775] 1660153467
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@f0f2775] 859652274
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:24:57 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:24:57  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+19/01/2023 18:24:57 DEBUG TestBase:50 - Config file loaded!!!
+19/01/2023 18:24:57 DEBUG TestBase:61 - OR file loaded!!!
+19/01/2023 18:25:02 DEBUG TestBase:76 - Chrome launched!!!
+19/01/2023 18:25:02  INFO TestBase:77 - This logs for info
+19/01/2023 18:25:05 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+19/01/2023 18:25:11  INFO TestBase:103 - Test execution completed
+19/01/2023 18:25:43 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -1986479722
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -2009191176
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] 1485274927
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ================ SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+19/01/2023 18:25:45 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+19/01/2023 18:25:45  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+19/01/2023 18:25:45 DEBUG TestBase:50 - Config file loaded!!!
+19/01/2023 18:25:45 DEBUG TestBase:61 - OR file loaded!!!
+19/01/2023 18:25:50 DEBUG TestBase:76 - Chrome launched!!!
+19/01/2023 18:25:50  INFO TestBase:77 - This logs for info
+19/01/2023 18:25:53 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+19/01/2023 18:26:01  INFO TestBase:103 - Test execution completed
+23/01/2023 18:12:42 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -1986479722
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -2009191176
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] 1485274927
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:12:43 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:12:43  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+23/01/2023 18:12:44 DEBUG TestBase:50 - Config file loaded!!!
+23/01/2023 18:12:44 DEBUG TestBase:61 - OR file loaded!!!
+23/01/2023 18:12:49 DEBUG TestBase:76 - Chrome launched!!!
+23/01/2023 18:12:49  INFO TestBase:77 - This logs for info
+23/01/2023 18:12:53 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+23/01/2023 18:13:02  INFO TestBase:103 - Test execution completed
+23/01/2023 18:37:30 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -1986479722
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -2009191176
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] 1485274927
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:37:32 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:37:32  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+23/01/2023 18:37:32 DEBUG TestBase:50 - Config file loaded!!!
+23/01/2023 18:37:32 DEBUG TestBase:61 - OR file loaded!!!
+23/01/2023 18:37:37 DEBUG TestBase:76 - Chrome launched!!!
+23/01/2023 18:37:37  INFO TestBase:77 - This logs for info
+23/01/2023 18:37:41 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+23/01/2023 18:37:57  INFO TestBase:103 - Test execution completed
+23/01/2023 18:38:51 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -1986479722
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -2009191176
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] 1485274927
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:38:52 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:38:52  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+23/01/2023 18:38:52 DEBUG TestBase:50 - Config file loaded!!!
+23/01/2023 18:38:52 DEBUG TestBase:61 - OR file loaded!!!
+23/01/2023 18:38:57 DEBUG TestBase:76 - Chrome launched!!!
+23/01/2023 18:38:57  INFO TestBase:77 - This logs for info
+23/01/2023 18:39:01 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+23/01/2023 18:39:10  INFO TestBase:103 - Test execution completed
+23/01/2023 18:41:05 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -1986479722
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] -2009191176
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@345965f2] 1485274927
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ================ SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+23/01/2023 18:41:06 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+23/01/2023 18:41:06  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+23/01/2023 18:41:06 DEBUG TestBase:50 - Config file loaded!!!
+23/01/2023 18:41:06 DEBUG TestBase:61 - OR file loaded!!!
+23/01/2023 18:41:11 DEBUG TestBase:76 - Chrome launched!!!
+23/01/2023 18:41:11  INFO TestBase:77 - This logs for info
+23/01/2023 18:41:15 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+23/01/2023 18:41:23  INFO TestBase:103 - Test execution completed
+24/01/2023 18:09:01 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml"
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ================ SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ================ SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@279ad2e3] 2094671495
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ================ SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@279ad2e3] 2071960041
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ================ SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@279ad2e3] 1271458848
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ================ SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] =============== DONE SORTING
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== SORTED NODES
+24/01/2023 18:09:03 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
+24/01/2023 18:09:03  INFO Utils:112 - [TestNG] Running:
+  C:\Users\User\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+
+24/01/2023 18:09:04 DEBUG TestBase:50 - Config file loaded!!!
+24/01/2023 18:09:04 DEBUG TestBase:61 - OR file loaded!!!
+24/01/2023 18:09:12 DEBUG TestBase:76 - Chrome launched!!!
+24/01/2023 18:09:12  INFO TestBase:77 - This logs for info
+24/01/2023 18:09:18 DEBUG TestBase:87 - Navitaed to!!!: https://automatenow.io/sandbox-automation-testing-practice-website/
+24/01/2023 18:09:37  INFO TestBase:103 - Test execution completed
