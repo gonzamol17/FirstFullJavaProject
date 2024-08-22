@@ -9,53 +9,47 @@ public class HomePage {
 
     WebDriver driver;
 
-    @FindBy(css = "#post-399 div:nth-child(1)>div.wp-container-1>div")
+    @FindBy(xpath = "//a[contains(text(),'JavaScript Delays')]")
     WebElement btn_JSDelays;
     @FindBy(css = "#cookie_action_close_header")
     WebElement modalCookies;
     @FindBy(xpath = "//a[contains(text(),'Sliders')]")
     WebElement btn_Sliders;
+    @FindBy(xpath = "//a[contains(text(),'Form Fields')]")
+    WebElement btn_Form_Fields;
+    @FindBy(xpath = "//a[contains(text(),'Popups')]")
+    WebElement btn_PopUp;
+    @FindBy(xpath = "//a[contains(text(),'Calendars')]")
+    WebElement btn_Calendars;
+    @FindBy(xpath = "//a[contains(text(),'Modals')]")
+    WebElement btn_Modals;
+    @FindBy(xpath = "//a[contains(text(),'Tables')]")
+    WebElement btn_Tables;
+    @FindBy(xpath = "//a[contains(text(),'Window Operations')]")
+    WebElement btn_WindowsOperation;
+    @FindBy(xpath = "//a[contains(text(),'Hover')]")
+    WebElement btn_Hover;
+    @FindBy(xpath = "//a[contains(text(),'Ads')]")
+    WebElement btn_Ads;
+    @FindBy(xpath = "//a[contains(text(),'Gestures')]")
+    WebElement btn_Gestures;
+    @FindBy(xpath = "//a[contains(text(),'File Download')]")
+    WebElement btn_FileDownload;
+    @FindBy(xpath = "//a[contains(text(),'Click Events')]")
+    WebElement btn_ClickEvents;
+    @FindBy(xpath = "//a[contains(text(),'Spinners')]")
+    WebElement btn_Spinners;
+    @FindBy(xpath = "//a[contains(text(),'File Upload')]")
+    WebElement btn_FileUpload;
+    @FindBy(xpath = "//a[contains(text(),'Iframes')]")
+    WebElement btn_Iframes;
+    @FindBy(xpath = "//a[contains(text(),'Broken Images')]")
+    WebElement btn_BrokenImages;
+    @FindBy(xpath = "//a[contains(text(),'Broken Links')]")
+    WebElement btn_BrokenLinks;
+    @FindBy(xpath = "//a[contains(text(),'Accordions')]")
+    WebElement btn_AccordionsLinks;
 
-
-   /* @FindBy(css = "div.header_user_info>a")
-    WebElement btn_Login;
-    @FindBy(css = "nav>span")
-    WebElement iconCallUs;
-    @FindBy(css = "section.blockcategories_footer.footer-block.col-xs-12.col-sm-2>h4")
-    WebElement categoriesLink;
-    @FindBy(css = "#block_various_links_footer>h4")
-    WebElement informationLink;
-    @FindBy(css = "#footer>div>section:nth-child(7)>h4")
-    WebElement myAccountLink;
-    @FindBy(css = "#block_contact_infos>div>h4")
-    WebElement storeInformationLink;*/
-    //@FindBy(xpath = "//*[@id=\"footer\"]/div/section[2]/div/div/ul/li/a")
-    //WebElement listOfCategoriesLink;
-    //@FindBy(css = "#block_various_links_footer>ul>li")
-    //WebElement listOfInformationLink;
-    //@FindBy (css = "section:nth-child(7)>div>ul>li")
-   // WebElement listOfMyAccountLink;
-   /* @FindBy(css = "li:nth-child(2)>div>h3")
-    WebElement callUsDetail;
-    @FindBy(css = "li:nth-child(2)>div>p>a")
-    WebElement btnSeleniumFramework;
-    @FindBy(css = "div:nth-child(2)>h3")
-    WebElement customBlockTitle;
-    @FindBy(css = "p:nth-child(2)>strong")
-    WebElement subtitle1;
-    @FindBy(id = "newsletter-input" )
-    WebElement textBoxNewsletter;
-    @FindBy(css = "div>button")
-    WebElement btnSendEmail;
-    @FindBy(css = "#columns>p")
-    WebElement bannerSubscribed;
-    @FindBy(css = "#homepage-slider a.bx-next")
-    WebElement nextSlider;
-    @FindBy(css = "#homeslider>li:nth-child(2)>div>p:nth-child(3)>button")
-    WebElement btnShopNow;
-    @FindBy(css = "#homepage div.header-content-details>h1")
-    WebElement externalTitle;
-*/
 
 
 
@@ -84,7 +78,81 @@ public class HomePage {
         btn_Sliders.click();
     }
 
+    public void selectFormField(){
+        btn_Form_Fields.click();
+    }
 
+    public void selectPopUp(){
+        btn_PopUp.click();
+    }
+
+    public void selectCalendars(){
+        btn_Calendars.click();
+    }
+
+    public void selectModals(){
+        btn_Modals.click();
+    }
+
+    public void selectTables(){
+        btn_Tables.click();
+    }
+    public void selectWindowsOperation(){
+        btn_WindowsOperation.click();
+    }
+
+    public void selectHover(){
+        btn_Hover.click();
+    }
+
+    public void selectAds(){
+        btn_Ads.click();
+
+    }
+
+    public void selectGestures(){
+        btn_Gestures.click();
+
+    }
+
+    public void selectFileDownload(){
+        btn_FileDownload.click();
+
+    }
+
+    public void selectClickEvents(){
+        btn_ClickEvents.click();
+
+    }
+
+    public void selectSpinners(){
+        btn_Spinners.click();
+
+    }
+
+    public void selectFileUpload(){
+        btn_FileUpload.click();
+
+    }
+
+    public void selectIframes(){
+        btn_Iframes.click();
+
+    }
+
+    public void selectBrokenImages(){
+        btn_BrokenImages.click();
+
+    }
+
+    public void selectBrokenLinks(){
+        btn_BrokenLinks.click();
+
+    }
+    public void selectAccordionsLinks(){
+        btn_AccordionsLinks.click();
+
+    }
 
 
     /*public void selectLoginBtn(){

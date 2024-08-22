@@ -14,7 +14,9 @@ public class Listeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
+
         test= rep.startTest(result.getName().toUpperCase());
+
     }
 
     @Override

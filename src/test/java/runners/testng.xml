@@ -10,8 +10,7 @@
 
     <test name="x1">
         <classes>
-            <class name="com.w2a.testcases.test_Verify_Green_Color_UserNameBox"></class>
-            <class name="com.w2a.testcases.test_Verify_Color_Text"></class>
+            <class name="com.w2a.testcases.test_AN_Hover"></class>
         </classes>
 
     </test>

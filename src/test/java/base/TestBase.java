@@ -38,7 +38,7 @@ public class TestBase {
 
     @BeforeSuite
     public void setUp() {
-        PropertyConfigurator.configure("C:\\Users\\User\\Desktop\\Automation\\Selenium webdriver with java-Basics to Advanced+Frameworks\\DataDrivenFramework\\src\\test\\java\\properties\\log4j.properties");
+        PropertyConfigurator.configure(System.getProperty("user.dir")+"\\src\\test\\java\\properties\\log4j.properties");
         if(driver==null){
             try {
                 fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\properties\\Config.properties");
