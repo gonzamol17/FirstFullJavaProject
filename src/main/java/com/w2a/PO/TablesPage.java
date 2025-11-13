@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TablesPage {
+public class TablesPage extends BasePage{
 
     WebDriver driver;
 
@@ -35,9 +35,7 @@ public class TablesPage {
 
 
     public TablesPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void showAllSimpleTable(){

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.io.File;
 
-public class FileUploadPage {
+public class FileUploadPage extends BasePage{
 
     WebDriver driver;
 
@@ -22,13 +22,11 @@ public class FileUploadPage {
 
 
     public FileUploadPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectBtnUploadFile() throws InterruptedException {
-        File uploadFile = new File("C:\\Users\\User\\Downloads\\MacroSolucionesLogo.png");
+        File uploadFile = new File("src\\test\\resources\\testData\\wise.jpeg");
         btn_SelectFile.sendKeys(uploadFile.getAbsolutePath());
         btn_UploadFile.click();
     }

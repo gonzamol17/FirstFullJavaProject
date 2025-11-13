@@ -13,7 +13,7 @@ import java.net.URLConnection;
 import java.util.List;
 
 
-public class BrokenImagesPage {
+public class BrokenImagesPage extends BasePage{
 
     WebDriver driver;
 
@@ -27,9 +27,7 @@ public class BrokenImagesPage {
 
 
     public BrokenImagesPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void verifyNumberOfImages() throws IOException {

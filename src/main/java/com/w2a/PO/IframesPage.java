@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class IframesPage {
+public class IframesPage extends BasePage{
     WebDriver driver;
 
     @FindBy(css="[itemprop='headline']")
@@ -16,9 +16,7 @@ public class IframesPage {
     WebElement newTitleFromNewIframe;
 
     public IframesPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public String showTitle(){

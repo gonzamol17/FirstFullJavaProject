@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class BankManagerPage {
+public class BankManagerPage extends BasePage{
 
     WebDriver driver;
 
@@ -19,9 +19,7 @@ public class BankManagerPage {
     WebElement btn_Customers;
 
     public BankManagerPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectBtnOpenAccount(){

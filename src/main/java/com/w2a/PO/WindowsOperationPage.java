@@ -8,10 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 
-public class WindowsOperationPage {
+public class WindowsOperationPage extends BasePage{
     WebDriver driver;
 
     @FindBy(xpath="//b[contains(text(),'New Tab')]")
@@ -42,8 +43,7 @@ public class WindowsOperationPage {
 
 
     public WindowsOperationPage(WebDriver driver){
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectNewBtn(){
@@ -63,7 +63,8 @@ public class WindowsOperationPage {
 
 
     public void selectConsentirBtn(){
-        WebDriverWait wait = new WebDriverWait(driver,2);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+        //WebDriverWait wait = new WebDriverWait(driver,2);
         btn_Consentir.click();
     }
 

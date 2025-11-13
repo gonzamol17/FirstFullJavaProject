@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class AdsPage {
+public class AdsPage extends BasePage{
 
     WebDriver driver;
 
@@ -27,13 +27,12 @@ public class AdsPage {
 
 
     public AdsPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public String lblMessage(){
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        //WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[normalize-space()='I am an ad.']")));
         return lbl_Popup.getText();
     }

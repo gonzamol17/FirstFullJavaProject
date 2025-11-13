@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class MyAccountPage {
+public class MyAccountPage extends BasePage{
 
     WebDriver driver;
 
@@ -38,9 +38,7 @@ public class MyAccountPage {
 
 
         public MyAccountPage(WebDriver driver){
-
-            this.driver=driver;
-            PageFactory.initElements(driver,this);
+            super(driver);
         }
 
         public String getUserName(){

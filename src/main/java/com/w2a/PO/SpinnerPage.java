@@ -9,24 +9,28 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SpinnerPage {
+import java.time.Duration;
 
-    WebDriver driver;
+public class SpinnerPage extends BasePage{
+
+    //WebDriver driver;
 
     @FindBy(css = "div.spinner")
     WebElement spinner;
 
+    public SpinnerPage(WebDriver driver) {
+        super(driver);
+    }
 
-
-
-    public SpinnerPage(WebDriver driver){
+   /* public SpinnerPage(WebDriver driver){
 
         this.driver=driver;
         PageFactory.initElements(driver,this);
-    }
+    }*/
 
     public Boolean ifSpinnerIsVisibleOrNot(){
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        //WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div.spinner")));
         return spinner.isDisplayed();
     }

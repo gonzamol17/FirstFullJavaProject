@@ -15,8 +15,8 @@ public class test_Verify_Call_Us_Selenium_Framework_Btn extends TestBase {
     MyAccountPage map;
     JavascriptExecutor jse;
     SeleniumFrameworkPage sf;
-/*
-    @Test
+
+/*    @Test
     public void verifyCallUsSeleniumFrameworkBtn() throws InterruptedException {
         hp = new HomePage(driver);
         lp = new LoginPage(driver);

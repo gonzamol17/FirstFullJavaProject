@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class OpenAccountPage {
+public class OpenAccountPage extends BasePage{
     WebDriver driver;
 
     @FindBy(id="userSelect")
@@ -22,9 +22,7 @@ public class OpenAccountPage {
 
 
     public OpenAccountPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void setDropDownCustomer() throws InterruptedException {

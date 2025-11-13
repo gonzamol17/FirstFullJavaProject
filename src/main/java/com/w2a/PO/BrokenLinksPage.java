@@ -12,7 +12,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BrokenLinksPage {
+public class BrokenLinksPage extends BasePage{
 
 
     WebDriver driver;
@@ -25,9 +25,7 @@ public class BrokenLinksPage {
 
 
     public BrokenLinksPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void verifyNumberOfLinksBroken() throws IOException {

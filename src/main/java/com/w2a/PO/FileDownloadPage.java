@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.io.File;
 
-public class FileDownloadPage {
+public class FileDownloadPage extends BasePage{
 
     WebDriver driver;
 
@@ -20,9 +20,7 @@ public class FileDownloadPage {
 
 
     public FileDownloadPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public Boolean getLinkFromNormalFile(){

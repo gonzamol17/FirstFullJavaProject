@@ -1,37 +1,14 @@
-03/05/2024 09:51:58 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2023.3\temp-testng-customsuite.xml"
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -646600740
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ================ SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] =============== DONE SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1127959331
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ================ SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] =============== DONE SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@2525ff7e] 2053460770
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ================ SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] =============== DONE SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ADDING NODE test_AN_Sliders.testSliders()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@2525ff7e] 2030749316
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ================ SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] =============== DONE SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:com.w2a.testcases.test_AN_Sliders@2525ff7e] 1230248123
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ================ SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] =============== DONE SORTING
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== SORTED NODES
-03/05/2024 09:51:59 DEBUG Graph:82 - [Graph] ====== END SORTED NODES
-03/05/2024 09:51:59  INFO Utils:112 - [TestNG] Running:
-  C:\Users\User\AppData\Local\JetBrains\IntelliJIdea2023.3\temp-testng-customsuite.xml
-
-03/05/2024 09:51:59 DEBUG TestBase:50 - Config file loaded!!!
-03/05/2024 09:51:59 DEBUG TestBase:61 - OR file loaded!!!
-03/05/2024 09:52:03 DEBUG TestBase:76 - Chrome launched!!!
-03/05/2024 09:52:03  INFO TestBase:77 - This logs for info
-03/05/2024 09:52:06 DEBUG TestBase:87 - Navitaed to!!!: https://practice-automation.com/
-03/05/2024 09:52:06  INFO TestBase:22 - Inicia el Test-- testSliders
-03/05/2024 09:52:12 DEBUG TestBase:35 - Finaliza el Test
-03/05/2024 09:52:14  INFO TestBase:103 - Test execution completed
+13/11/2025 19:09:23  INFO TestBase:56 - Log4j configured successfully
+13/11/2025 19:09:23  INFO TestBase:66 - Properties loaded successfully
+13/11/2025 19:09:23  INFO WebDriverManager:1217 - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+13/11/2025 19:09:23  INFO WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\gonza\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+13/11/2025 19:09:23 DEBUG TestBase:78 - Chrome launched!!!
+13/11/2025 19:09:25 DEBUG TestBase:45 - Navigated to: https://practice-automation.com/
+13/11/2025 19:09:31  INFO TestBase:101 - Browser closed and test execution completed
+13/11/2025 19:22:47  INFO TestBase:56 - Log4j configured successfully
+13/11/2025 19:22:47  INFO TestBase:66 - Properties loaded successfully
+13/11/2025 19:22:47  INFO WebDriverManager:1217 - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+13/11/2025 19:22:47  INFO WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\gonza\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+13/11/2025 19:22:47 DEBUG TestBase:78 - Chrome launched!!!
+13/11/2025 19:22:49 DEBUG TestBase:45 - Navigated to: https://practice-automation.com/
+13/11/2025 19:22:55  INFO TestBase:101 - Browser closed and test execution completed

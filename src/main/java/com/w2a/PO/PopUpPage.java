@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class PopUpPage {
+public class PopUpPage extends BasePage {
 
 
     WebDriver driver;
@@ -33,9 +33,7 @@ public class PopUpPage {
 
 
     public PopUpPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public String getTitle(){

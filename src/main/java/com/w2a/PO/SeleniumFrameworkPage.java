@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SeleniumFrameworkPage {
+public class SeleniumFrameworkPage extends BasePage{
     WebDriver driver;
 
     @FindBy(css="div>h2>span>strong")
@@ -14,9 +14,7 @@ public class SeleniumFrameworkPage {
 
 
     public SeleniumFrameworkPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public boolean getTitleOfPage(){

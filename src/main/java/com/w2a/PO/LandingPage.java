@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+public class LandingPage extends BasePage{
 
     WebDriver driver;
 
@@ -17,9 +17,7 @@ public class LandingPage {
 
 
     public LandingPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectBtnBankManagerLogin(){

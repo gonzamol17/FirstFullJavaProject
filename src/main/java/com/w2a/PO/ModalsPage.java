@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class ModalsPage {
+public class ModalsPage extends BasePage{
     WebDriver driver;
 
     @FindBy(id = "simpleModal")
@@ -35,9 +35,7 @@ public class ModalsPage {
 
 
     public ModalsPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectSimpleModal(){

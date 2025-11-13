@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AccordionsPage {
+public class AccordionsPage extends BasePage{
     WebDriver driver;
 
     @FindBy(css="summary.wp-block-coblocks-accordion-item__title")
@@ -15,9 +15,7 @@ public class AccordionsPage {
 
 
     public AccordionsPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectIconAccordion(){

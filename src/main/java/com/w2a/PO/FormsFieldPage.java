@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class FormsFieldPage {
+public class FormsFieldPage extends BasePage{
 
     WebDriver driver;
 
@@ -49,9 +49,7 @@ public class FormsFieldPage {
 
 
     public FormsFieldPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void completeName(String name){

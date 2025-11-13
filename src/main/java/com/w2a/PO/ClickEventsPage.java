@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ClickEventsPage {
+public class ClickEventsPage extends BasePage{
 
     WebDriver driver;
 
@@ -28,9 +28,7 @@ public class ClickEventsPage {
 
 
     public ClickEventsPage(WebDriver driver){
-
-        this.driver=driver;
-        PageFactory.initElements(driver,this);
+        super(driver);
     }
 
     public void selectBtnCat(){

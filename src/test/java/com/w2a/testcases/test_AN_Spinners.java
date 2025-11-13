@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 
 public class test_AN_Spinners extends TestBase {
     HomePage hp;
-    SlidersPage sp;
     JavascriptExecutor jse;
     SpinnerPage spp;
 
