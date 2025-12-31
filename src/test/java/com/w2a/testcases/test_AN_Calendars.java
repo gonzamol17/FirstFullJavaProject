@@ -8,6 +8,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.time.Month;
+
 public class test_AN_Calendars extends TestBase {
     HomePage hp;
     JavascriptExecutor jse;
@@ -18,32 +20,19 @@ public class test_AN_Calendars extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,400)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectCalendars();
-        Thread.sleep(1000);
-        System.out.println();
         cp = new CalendarsPage(driver);
         Assert.assertEquals(cp.verifyTitleCalendars(), "Calendars");
         cp.selectLblCalendar();
-        Thread.sleep(1000);
-        String year = "2025";
-        String month = "may";
-        Integer day = 16;
+        String year = "2026";
+        String month = "July";
+        Integer day = 27;
         cp.verifyCurrentYear(year, month, day);
-        Thread.sleep(1000);
         cp.sendDateSelected();
-        Thread.sleep(1000);
         System.out.println(cp.getDateSelected());
-        Thread.sleep(1000);
         Assert.assertTrue(cp.getDateSelected().toLowerCase().contains(year));
         Assert.assertTrue(cp.getDateSelected().toLowerCase().contains(day.toString()));
-        Thread.sleep(1000);
-
-
-
-
-
-
 
 
     }

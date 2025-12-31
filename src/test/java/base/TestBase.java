@@ -23,7 +23,7 @@ import java.util.Properties;
 
 
 public class TestBase {
-    public static WebDriver driver;
+    public WebDriver driver;
     public static Properties config = new Properties();
     public static Properties OR = new Properties();
     public static FileInputStream fis;
@@ -34,7 +34,7 @@ public class TestBase {
 
 
 
-    @BeforeSuite
+    @BeforeClass
     public void setUp() {
         configureLogging();
         loadProperties();
@@ -94,7 +94,7 @@ public class TestBase {
         }
     }
 
-    @AfterSuite
+    @AfterClass
     public void tearDown() {
         if (driver != null) {
             driver.quit();

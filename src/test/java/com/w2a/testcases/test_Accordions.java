@@ -23,13 +23,12 @@ public class test_Accordions extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,2000)");
-        Thread.sleep(1000);
+        Thread.sleep(700);
         hp.selectAccordionsLinks();
         ap = new AccordionsPage(driver);
         ap.selectIconAccordion();
         String text = ap.getTextFromAccordionComponent();
         Assert.assertEquals(text, "This is an accordion item.");
-        Thread.sleep(2000);
 
     }
 }

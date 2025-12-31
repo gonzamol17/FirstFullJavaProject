@@ -18,13 +18,11 @@ public class test_AN_SortableTable_ShowTotalPoblation extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectTables();
         jse.executeScript("window.scrollBy(0,700)");
-        Thread.sleep(1000);
         tp = new TablesPage(driver);
         tp.showTotalOfPoblationFromCountries();
-        Thread.sleep(1000);
 
     }
 }

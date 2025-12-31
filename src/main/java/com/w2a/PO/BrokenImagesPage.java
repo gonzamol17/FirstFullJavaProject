@@ -1,21 +1,18 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
 
 
-public class BrokenImagesPage extends BasePage{
-
-    WebDriver driver;
+public class BrokenImagesPage extends BasePage {
 
     @FindBy(xpath = "//h1[contains(text(),'Calendars')]")
     WebElement lbl_Title;

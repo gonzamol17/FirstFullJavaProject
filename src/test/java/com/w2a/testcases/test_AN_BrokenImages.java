@@ -23,11 +23,11 @@ public class test_AN_BrokenImages extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1800)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectBrokenImages();
         bip = new BrokenImagesPage(driver);
         bip.verifyNumberOfImages();
-        Thread.sleep(1000);
+
 
    }
 

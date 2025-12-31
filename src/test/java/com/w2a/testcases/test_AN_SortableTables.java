@@ -19,27 +19,20 @@ public class test_AN_SortableTables extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectTables();
         jse.executeScript("window.scrollBy(0,700)");
         tp = new TablesPage(driver);
         System.out.println("La cantidad total de registros de la tabla x defecto es: "+tp.showTotalOfRecordFromSortableTable());
         tp.showHeaderOfTable();
         tp.showAllSortableTable();
-        Thread.sleep(1000);
         String entryQuantity = "25";
         tp.selectEntriesFromSortableTable(entryQuantity);
-        Thread.sleep(1000);
         System.out.println("\n");
         System.out.println("La cantidad total de registros de la tabla ahora es: "+tp.showTotalOfRecordFromSortableTable());
         Assert.assertEquals(tp.showTheEntrySelected(), entryQuantity);
         tp.showHeaderOfTable();
         tp.showAllSortableTable();
-        Thread.sleep(1000);
-
-
-
-
 
     }
 }

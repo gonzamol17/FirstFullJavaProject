@@ -1,19 +1,17 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-public class FormsFieldPage extends BasePage{
+public class FormsFieldPage extends BasePage {
 
-    WebDriver driver;
-
-    @FindBy(id = "name")
+    @FindBy(id = "name-input")
     WebElement txtName;
     @FindBy(css = "#cookie_action_close_header")
     WebElement modalCookies;
@@ -21,28 +19,20 @@ public class FormsFieldPage extends BasePage{
     WebElement btn_Sliders;
     @FindBy(xpath = "//a[contains(text(),'Form Fields')]")
     WebElement btn_Form_Fields;
-
     @FindBy(xpath = "//input[@name='fav_drink']")
     List<WebElement> listcheckbox;
-
     @FindBy(xpath = "//label[contains(@for, 'drink')]")
     List<WebElement> listcheckboxNames;
-
     @FindBy(xpath = "//input[@type='radio']")
     List<WebElement> listradioButton;
-
-    @FindBy(id = "siblings")
+    @FindBy(id = "automation")
     WebElement dropdownSibling;
-
     @FindBy(css = "#feedbackForm > ul>li")
     List <WebElement> listOfFastAnimals;
-
     @FindBy(id = "email")
     WebElement txtemail;
-
     @FindBy(id = "message")
     WebElement txtmessage;
-
     @FindBy(id = "submit-btn")
     WebElement btnSubmit;
 
@@ -99,8 +89,11 @@ public class FormsFieldPage extends BasePage{
     }
 
     public String selectBtnSubmit(){
-        btnSubmit.click();
-        return (driver.switchTo().alert().getText());
+        waitForClickable(btnSubmit).click();
+        //return (driver.switchTo().alert().getText());
+        wait.until(ExpectedConditions.alertIsPresent());
+        return driver.switchTo().alert().getText();
+
     }
 
 }

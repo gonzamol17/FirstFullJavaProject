@@ -18,18 +18,12 @@ public class test_AN_Hover extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectHover();
         hop = new HoverPage(driver);
         Assert.assertEquals(hop.lblMessage(), "Mouse over me");
         hop.doHoverOverLable();
         Assert.assertEquals(hop.lblMessage(), "You did it!");
-        Thread.sleep(1000);
-
-
-
-
-
 
     }
 }

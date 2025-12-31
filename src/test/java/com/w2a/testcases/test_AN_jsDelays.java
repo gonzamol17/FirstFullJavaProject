@@ -28,7 +28,7 @@ public class test_AN_jsDelays extends TestBase {
         //hp.acceptCookies();
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,300)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectJSDealys();
         jsdp = new JavaScriptDelayPage(driver);
         System.out.println("El título de la página principal es: " + jsdp.mainTitle());
@@ -37,6 +37,6 @@ public class test_AN_jsDelays extends TestBase {
         System.out.println("El texto dentro del campo antes de seleccionar el botón Start: "+jsdp.getTextOnTextField());
         jsdp.clickBtnStart();
         System.out.println("El texto dentro del campo despues de seleccionar el botón Start: "+jsdp.getTextOnTextField());
-        Thread.sleep(2000);
+
     }
 }

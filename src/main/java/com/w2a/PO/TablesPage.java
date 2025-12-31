@@ -1,18 +1,15 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class TablesPage extends BasePage{
-
-    WebDriver driver;
+public class TablesPage extends BasePage {
 
     @FindBy(css = "#post-1076 > div > figure")
     List<WebElement>  simpleTable;
@@ -24,7 +21,7 @@ public class TablesPage extends BasePage{
     List<WebElement>  sortableTable;
     @FindBy(css = "#tablepress-1 > thead > tr")
     WebElement  headerSortableTable;
-    @FindBy(xpath = "//select[@name='tablepress-1_length']")
+    @FindBy(id = "dt-length-0")
     WebElement  dropdownEntries;
     @FindBy(css = "#tablepress-1 > tbody>tr")
     List<WebElement>  allSortableRows;

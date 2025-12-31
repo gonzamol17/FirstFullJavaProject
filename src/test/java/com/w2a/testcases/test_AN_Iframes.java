@@ -19,18 +19,14 @@ public class test_AN_Iframes extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1800)");
-        Thread.sleep(1500);
+        Thread.sleep(500);
         hp.selectIframes();
         ip = new IframesPage(driver);
         Assert.assertEquals(ip.showTitle(), "Iframes");
-        //jse.executeScript("window.scrollBy(0,700)");
-        //Thread.sleep(1500);
         ip.changeToIframeChild();
-        Thread.sleep(1000);
         Assert.assertEquals(ip.titleFromNewIframe(), "Playwright");
         driver.switchTo().defaultContent();
         Assert.assertEquals(ip.showTitle(), "Iframes");
-        Thread.sleep(1000);
 
     }
 

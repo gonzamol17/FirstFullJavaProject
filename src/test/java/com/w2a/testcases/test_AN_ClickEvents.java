@@ -19,29 +19,21 @@ public class test_AN_ClickEvents extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1400)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectClickEvents();
         cep = new ClickEventsPage(driver);
         cep.selectBtnCat();
         Assert.assertEquals(cep.getSoundFromAnimal(), "Meow!");
         System.out.println("Se está visualizando el sonido del gato: "+cep.getSoundFromAnimal());
-        Thread.sleep(1000);
         cep.selectBtnPig();
         Assert.assertEquals(cep.getSoundFromAnimal(), "Oink!");
         System.out.println("Se está visualizando el sonido del Chancho: "+cep.getSoundFromAnimal());
-        Thread.sleep(1000);
         cep.selectBtnDog();
         Assert.assertEquals(cep.getSoundFromAnimal(), "Woof!");
         System.out.println("Se está visualizando el sonido del Perro: "+cep.getSoundFromAnimal());
-        Thread.sleep(1000);
         cep.selectBtnCow();
         Assert.assertEquals(cep.getSoundFromAnimal(), "Moo!");
         System.out.println("Se está visualizando el sonido de la Vaca: "+cep.getSoundFromAnimal());
-        Thread.sleep(1000);
-
-
-
-
 
     }
 }

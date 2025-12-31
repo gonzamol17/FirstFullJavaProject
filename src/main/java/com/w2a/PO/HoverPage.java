@@ -1,14 +1,12 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class HoverPage extends BasePage{
-
-        WebDriver driver;
+public class HoverPage extends BasePage {
 
         @FindBy(id = "mouse_over")
         WebElement lbl_MsgHover;

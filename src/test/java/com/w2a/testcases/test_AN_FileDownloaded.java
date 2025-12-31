@@ -18,20 +18,13 @@ public class test_AN_FileDownloaded extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1200)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectFileDownload();
-        Thread.sleep(1000);
         fp = new FileDownloadPage(driver);
         Boolean link = fp.getLinkFromNormalFile();
         Assert.assertTrue(link);
-        Thread.sleep(1000);
         fp.downloadNormalFile();
-        Thread.sleep(2000);
         Assert.assertTrue(fp.isFileAvailable());
-        Thread.sleep(1000);
-
-
-
 
     }
 }

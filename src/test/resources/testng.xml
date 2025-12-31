@@ -8,9 +8,10 @@
     </listeners>
 
 
-    <test name="x1">
+    <test name="Suite 1">
         <classes>
-            <class name="com.w2a.testcases.test_AN_Spinners"></class>
+            <class name="com.w2a.testcases.test_Accordions"></class>
+            <class name="com.w2a.testcases.test_AN_Ads"></class>
         </classes>
 
     </test>

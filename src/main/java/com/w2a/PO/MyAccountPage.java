@@ -1,16 +1,14 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class MyAccountPage extends BasePage{
-
-    WebDriver driver;
+public class MyAccountPage extends BasePage {
 
     @FindBy(css = "div.nav div:nth-child(1)>a")
     WebElement linkUserName;
@@ -32,7 +30,6 @@ public class MyAccountPage extends BasePage{
     WebElement btnGoHomePage;
     @FindBy(css = "div:nth-child(2)>a")
     WebElement btnLogOut;
-
 
 
 

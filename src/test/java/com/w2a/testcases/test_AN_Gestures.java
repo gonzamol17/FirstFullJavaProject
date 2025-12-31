@@ -17,10 +17,8 @@ public class test_AN_Gestures extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1100)");
-        Thread.sleep(1000);
+        Thread.sleep(300);
         hp.selectGestures();
-        Thread.sleep(1000);
-
 
     }
 }

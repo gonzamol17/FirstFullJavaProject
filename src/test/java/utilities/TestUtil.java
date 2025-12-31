@@ -19,7 +19,7 @@ public class TestUtil extends TestBase {
 
 
 
-    public static void captureScreenshot() throws IOException {
+    public static void captureScreenshot(WebDriver driver) throws IOException {
        File scrFile= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
        Date d= new Date();
        screenshotName = d.toString().replace(":","_").replace(" ", "_")+".jpg";

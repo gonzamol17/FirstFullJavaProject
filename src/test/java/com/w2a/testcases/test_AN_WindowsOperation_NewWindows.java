@@ -19,15 +19,12 @@ public class test_AN_WindowsOperation_NewWindows extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectWindowsOperation();
-        Thread.sleep(1000);
         wop = new WindowsOperationPage(driver);
         jse.executeScript("window.scrollBy(0,200)");
-        Thread.sleep(1000);
         Assert.assertEquals(wop.selectNewWindowBtn(), "https://automatenow.io/");
         Assert.assertEquals(wop.handleTwoWindowsOpened(), "https://practice-automation.com/window-operations/");
-        Thread.sleep(1000);
 
     }
 }

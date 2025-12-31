@@ -17,14 +17,12 @@ public class test_AN_SortableTable_ShowOnePoblation extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectTables();
         jse.executeScript("window.scrollBy(0,700)");
-        Thread.sleep(1000);
         tp = new TablesPage(driver);
-        String country = "Nigeria";
+        String country = "China";
         System.out.println(tp.showQuantityOfPoblation(country));
-        Thread.sleep(1000);
 
     }
 }

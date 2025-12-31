@@ -1,26 +1,19 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
-import java.util.ArrayList;
 import java.util.List;
 
-public class BrokenLinksPage extends BasePage{
-
-
-    WebDriver driver;
+public class BrokenLinksPage extends BasePage {
 
     @FindBy(tagName = "a")
     List<WebElement> image_links;
-
-
 
 
 

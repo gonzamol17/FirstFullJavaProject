@@ -18,12 +18,10 @@ public class test_AN_Tables_All_Elements extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectTables();
         tp = new TablesPage(driver);
         tp.showAllSimpleTable();
-        Thread.sleep(1000);
-
 
     }
 }

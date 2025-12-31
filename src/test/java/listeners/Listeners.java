@@ -5,88 +5,73 @@ import com.relevantcodes.extentreports.LogStatus;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.Reporter;
-import utilities.TestUtil;
 import org.apache.log4j.Logger;
+import utilities.TestUtil;
 
 import java.io.IOException;
 
-public class Listeners extends TestBase implements ITestListener {
-
+public class Listeners implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-        //test= rep.startTest(result.getName().toUpperCase());
         Logger log = Logger.getLogger(result.getInstance().getClass());
-        log.info("========== STARTING TEST: " + result.getName()+ " ==========");
-        test = rep.startTest(result.getName());
+        log.info("========== STARTING TEST: " + result.getName() + " ==========");
 
+        TestBase testBaseInstance = (TestBase) result.getInstance();
+        TestBase.test = testBaseInstance.rep.startTest(
+                result.getMethod().getMethodName(),
+                "Clase: " + result.getInstanceName()
+        );
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
         Logger log = Logger.getLogger(result.getInstance().getClass());
-
         log.info("========== TEST PASSED: " + result.getName()+ " ==========");
-        test.log(LogStatus.PASS, result.getName() + " -- Pass OK");
-        rep.endTest(test);
-        rep.flush();
+        TestBase.test.log(LogStatus.PASS, result.getName() + " -- Pass OK");
+
+        // Usar el rep de la instancia actual del test
+        TestBase testBaseInstance = (TestBase) result.getInstance();
+        testBaseInstance.rep.endTest(TestBase.test);
+        testBaseInstance.rep.flush();
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-       // Logger log = Logger.getLogger(result.getInstance().getClass());
-       // try {
-       //     TestUtil.captureScreenshot();
-       // } catch (IOException e) {
-       //     e.printStackTrace();
-        //}
-        //test.log(LogStatus.FAIL, result.getName().toUpperCase()+"-- Failed with exception: "+result.getThrowable());
-        //test.log(LogStatus.INFO,test.addScreenCapture(TestUtil.screenshotName));
-
-        //Reporter.log("Click to see the screenshot");
-        //Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+">Screenshot</a>");
-        //Reporter.log("<a href=\"C:\\Users\\User\\Desktop\\Automation\\Selenium webdriver with java-Basics to Advanced+Frameworks\\DataDrivenFramework\\src\\test\\java\\Screenshot\\"+TestUtil.screenshotName+"\">Screenshot</a>");
-        //Reporter.log("<br>");
-        //Reporter.log("<br>");
-        //Reporter.log("<a target=\"_blank\" href="+TestUtil.screenshotName+"><img src="+TestUtil.screenshotName+" height='600' width='600'></img></a>");
-
-        //rep.endTest(test);
-        //rep.flush();
         Logger log = Logger.getLogger(result.getInstance().getClass());
-
         log.error("========== TEST FAILED: " + result.getName() + " ==========");
         log.error("Exception: ", result.getThrowable());
 
         try {
-            TestUtil.captureScreenshot();
+            TestBase testBaseInstance = (TestBase) result.getInstance();
+            TestUtil.captureScreenshot(testBaseInstance.driver);
+
+            // Primero logueamos el fallo y la captura de pantalla
+            TestBase.test.log(LogStatus.FAIL, result.getName() + " -- Failed with exception: " + result.getThrowable());
+            TestBase.test.log(LogStatus.INFO, TestBase.test.addScreenCapture("./" + TestUtil.screenshotName));
+
+            // Luego finalizamos y guardamos el reporte
+            testBaseInstance.rep.endTest(TestBase.test);
+            testBaseInstance.rep.flush();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        test.log(LogStatus.FAIL, result.getName() + " -- Failed with exception: " + result.getThrowable());
-        test.log(LogStatus.INFO, test.addScreenCapture(TestUtil.screenshotName));
-
-        rep.endTest(test);
-        rep.flush();
-
     }
+
+
 
     @Override
     public void onTestSkipped(ITestResult result) {
         Logger log = Logger.getLogger(result.getInstance().getClass());
-        log.warn("========== TEST SKIPPED: " + result.getName()+ " ==========");
+        log.warn("========== TEST SKIPPED: " + result.getName() + " ==========");
     }
 
     @Override
-    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-
-    }
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {}
 
     @Override
-    public void onTestFailedWithTimeout(ITestResult result) {
-
-    }
+    public void onTestFailedWithTimeout(ITestResult result) {}
 
     @Override
     public void onStart(ITestContext context) {

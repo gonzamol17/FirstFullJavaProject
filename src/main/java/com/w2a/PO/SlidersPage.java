@@ -1,15 +1,12 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class SlidersPage extends BasePage {
-
-    WebDriver driver;
-
 
     @FindBy(css = "#top-wrap h1")
     WebElement mainTitle;

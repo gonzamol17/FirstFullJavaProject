@@ -20,24 +20,19 @@ public class test_AN_Modals extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,500)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectModals();
         mp = new ModalsPage(driver);
         mp.selectSimpleModal();
-        Thread.sleep(1000);
         System.out.println(mp.handleSimpleTitleModal());
         System.out.println(mp.handleSimpleBodyModal());
-        Thread.sleep(1000);
         mp.closeSimpleModal();
-        Thread.sleep(1000);
         mp.selectFormModal();
         String name = "Pedro";
         String email = "pedro@gmail.com";
         String message = "Este es el primer mensajes agregado";
         mp.fillFormModal(name, email, message);
-        Thread.sleep(1000);
         Assert.assertTrue(mp.getEvidenceAfterCloseFormModal().toLowerCase().contains("click to see"));
-        Thread.sleep(1000);
 
     }
 }

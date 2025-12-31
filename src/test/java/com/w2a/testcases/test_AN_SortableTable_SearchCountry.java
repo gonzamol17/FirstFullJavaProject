@@ -20,10 +20,9 @@ public class test_AN_SortableTable_SearchCountry extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectTables();
         jse.executeScript("window.scrollBy(0,700)");
-        Thread.sleep(1000);
         tp = new TablesPage(driver);
         String country = "Brazil";
         String ctry = tp.findCountryFromSortableTable(country);
@@ -33,8 +32,6 @@ public class test_AN_SortableTable_SearchCountry extends TestBase {
         catch(Exception e) {
             System.out.println("No se ha podido encontrar el pais buscado en la tabla");
         }
-        Thread.sleep(1000);
-
 
     }
 }

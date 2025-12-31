@@ -1,14 +1,11 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class JavaScriptDelayPage extends BasePage{
-
-        WebDriver driver;
-
+public class JavaScriptDelayPage extends BasePage {
 
         @FindBy(css = "#top-wrap h1")
         WebElement mainTitle;

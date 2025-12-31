@@ -18,9 +18,8 @@ public class test_AN_WindowsOperation_ReplaceWindow extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectWindowsOperation();
-        Thread.sleep(1000);
         wop = new WindowsOperationPage(driver);
         wop.selectReplaceWindowBtn();
         wop.selectConsentirBtn();
@@ -30,9 +29,7 @@ public class test_AN_WindowsOperation_ReplaceWindow extends TestBase {
         Assert.assertEquals(wop.getSecondTitleFromReplaceWindow(), "Our latest posts");
         System.out.println("Sección" +wop.getSecondTitleFromReplaceWindow());
         wop.showMeQuantityItemsSecondSection();
-        Thread.sleep(1000);
         Assert.assertEquals(wop.verifyOriginalTitle(), ("Window Operations"));
-        Thread.sleep(1000);
 
     }
 }

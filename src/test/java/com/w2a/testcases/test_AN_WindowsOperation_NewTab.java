@@ -18,17 +18,14 @@ public class test_AN_WindowsOperation_NewTab extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,750)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectWindowsOperation();
-        Thread.sleep(1000);
         wop = new WindowsOperationPage(driver);
         wop.selectNewBtn();
         String originHandle = wop.showTheURLFromNewWindows();
         wop.selectConsentirBtn();
         Assert.assertEquals(wop.verifyTheTitleForSecondWindow(), "Start learning");
-        Thread.sleep(1000);
         Assert.assertEquals(wop.showTheOriginalUrl(originHandle), "https://practice-automation.com/window-operations/");
-        Thread.sleep(1000);
 
     }
 }

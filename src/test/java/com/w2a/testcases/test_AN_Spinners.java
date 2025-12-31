@@ -21,7 +21,7 @@ public class test_AN_Spinners extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1400)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectSpinners();
         spp = new SpinnerPage(driver);
         try {
@@ -30,10 +30,6 @@ public class test_AN_Spinners extends TestBase {
         } catch (Exception e) {
             System.out.println("No apareció el spinner");
         }
-        Thread.sleep(2000);
-
-
-
 
     }
 }

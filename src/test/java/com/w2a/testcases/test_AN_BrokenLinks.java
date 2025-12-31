@@ -26,9 +26,6 @@ public class test_AN_BrokenLinks extends TestBase {
         hp.selectBrokenLinks();
         blp = new BrokenLinksPage(driver);
         blp.verifyNumberOfLinksBroken();
-        //System.out.println(code);
-        //Assert.assertEquals(code, 400);
-        Thread.sleep(1000);
 
     }
 }

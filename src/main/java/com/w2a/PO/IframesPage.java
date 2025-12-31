@@ -1,13 +1,11 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class IframesPage extends BasePage{
-    WebDriver driver;
-
+public class IframesPage extends BasePage {
     @FindBy(css="[itemprop='headline']")
     WebElement title;
     @FindBy(id="iframe-1")

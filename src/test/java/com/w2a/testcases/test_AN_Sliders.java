@@ -25,12 +25,11 @@ public class test_AN_Sliders extends TestBase {
         //hp.acceptCookies();
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,500)");
-        Thread.sleep(2000);
+        Thread.sleep(500);
         hp.selectSliders();
         sp = new SlidersPage(driver);
         Assert.assertEquals(sp.mainTitle(),"Slider");
         sp.moveSlider(150);
-        Thread.sleep(2000);
         System.out.println("El resultado de pixeles desplazados es: "+sp.getResultNumber());
         log.debug("Finaliza el Test");
 

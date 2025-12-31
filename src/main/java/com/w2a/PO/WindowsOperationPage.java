@@ -1,29 +1,23 @@
 package com.w2a.PO;
 
-import org.openqa.selenium.By;
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 
-public class WindowsOperationPage extends BasePage{
-    WebDriver driver;
+public class WindowsOperationPage extends BasePage {
 
     @FindBy(xpath="//b[contains(text(),'New Tab')]")
     WebElement btn_NewTab;
-
     @FindBy(css="#post-18533 > div > h2 > strong")
     WebElement lbl_TitleNewWindowPage;
-
     @FindBy(xpath="//p[contains(text(),'Consentir')]")
     WebElement btn_Consentir;
-
     @FindBy(xpath="//button[@onclick='newWindowSelf()']")
     WebElement btn_ReplaceWindow;
     @FindBy(xpath="//strong[contains(text(),'Start learning')]")

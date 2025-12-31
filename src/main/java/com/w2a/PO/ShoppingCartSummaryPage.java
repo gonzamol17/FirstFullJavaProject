@@ -1,13 +1,11 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class ShoppingCartSummaryPage extends BasePage {
-
-    WebDriver driver;
 
     @FindBy(css = "#center_column>p")
     WebElement bannerCartEmpty;

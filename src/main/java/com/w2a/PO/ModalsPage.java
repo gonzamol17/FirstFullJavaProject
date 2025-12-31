@@ -1,15 +1,11 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
-import java.util.List;
-
-public class ModalsPage extends BasePage{
-    WebDriver driver;
+public class ModalsPage extends BasePage {
 
     @FindBy(id = "simpleModal")
     WebElement btn_SimpleModal;
@@ -19,7 +15,7 @@ public class ModalsPage extends BasePage{
     WebElement simpleModal;
     @FindBy(xpath = "//div[@id='pum_popup_title_1318']")
     WebElement simpleTitleModal;
-     @FindBy(css = "div:nth-of-type(5) .popmake-close.pum-close")
+     @FindBy(xpath = "(//button[@class='pum-close popmake-close'])[1]")
     WebElement closeSimpleModal;
     @FindBy(css = "input#g1051-name.name.grunion-field")
     WebElement txtNameModal;

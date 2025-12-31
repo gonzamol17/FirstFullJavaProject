@@ -1,15 +1,13 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 
-public class BankManagerPage extends BasePage{
-
-    WebDriver driver;
+public class BankManagerPage extends BasePage {
 
     @FindBy(css="div.center>button:nth-child(1)")
     WebElement btn_AddCustomer;

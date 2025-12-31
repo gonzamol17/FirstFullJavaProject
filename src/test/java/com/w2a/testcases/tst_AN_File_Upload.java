@@ -22,15 +22,11 @@ public class tst_AN_File_Upload extends TestBase {
         hp = new HomePage(driver);
         jse = (JavascriptExecutor) driver;
         jse.executeScript("window.scrollBy(0,1400)");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         hp.selectFileUpload();
         fup = new FileUploadPage(driver);
         fup.selectBtnUploadFile();
-        Thread.sleep(2000);
         Assert.assertEquals(fup.getSuccessfullyMsg(), "Thank you for your message. It has been sent.");
-        Thread.sleep(2000);
-
-
 
 
     }

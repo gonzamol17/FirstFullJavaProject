@@ -1,13 +1,11 @@
 package com.w2a.PO;
 
+import Base.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class HomePage extends BasePage{
-
-    WebDriver driver;
+public class HomePage extends BasePage {
 
     @FindBy(xpath = "//a[contains(text(),'JavaScript Delays')]")
     WebElement btn_JSDelays;
@@ -49,9 +47,6 @@ public class HomePage extends BasePage{
     WebElement btn_BrokenLinks;
     @FindBy(xpath = "//a[contains(text(),'Accordions')]")
     WebElement btn_AccordionsLinks;
-
-
-
 
 
 
@@ -104,12 +99,14 @@ public class HomePage extends BasePage{
     }
 
     public void selectAds(){
-        btn_Ads.click();
+        waitForClickable(btn_Ads).click();
 
     }
 
+
+
     public void selectGestures(){
-        btn_Gestures.click();
+       waitForClickable(btn_Gestures).click();
 
     }
 
@@ -130,6 +127,7 @@ public class HomePage extends BasePage{
 
     public void selectFileUpload(){
         btn_FileUpload.click();
+
 
     }
 
