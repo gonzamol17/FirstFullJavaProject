@@ -1,0 +1,59 @@
+package com.w2a.PO;
+
+import Base.BasePage;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
+
+public class OpenAccountPage extends BasePage {
+
+    @FindBy(id="userSelect")
+    WebElement dropDownCustomer;
+    @FindBy(id="currency")
+    WebElement dropDownCurrency;
+    @FindBy(css="div>form>button")
+    WebElement btnProcess;
+
+
+
+    public OpenAccountPage(WebDriver driver){
+        super(driver);
+    }
+
+    public void setDropDownCustomer() throws InterruptedException {
+        Select sel= new Select(dropDownCustomer);
+        List<WebElement> options= sel.getOptions();
+        int size=options.size();
+        for(int i=1; i<size;i++){
+            sel.selectByIndex(i);
+            Thread.sleep(1000);
+            setCurrency("Dollar");
+            Thread.sleep(1000);
+            String optionName=options.get(i).getText();
+            System.out.println("Se cargó el customer: "+optionName);
+            setBtnProcess();
+            Alert alt = driver.switchTo().alert();
+            alt.accept();
+
+
+        }
+
+    }
+
+    public void setCurrency(String currency) throws InterruptedException {
+        Select sel= new Select(dropDownCurrency);
+        sel.selectByVisibleText(currency);
+        Thread.sleep(1000);
+    }
+
+    public void setBtnProcess(){
+        btnProcess.click();
+    }
+
+
+
+}
