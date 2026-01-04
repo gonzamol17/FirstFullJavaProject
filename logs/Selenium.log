@@ -1,0 +1,28 @@
+
+01/01/2026 11:41:53  INFO TestBase:56 - Log4j configured successfully
+01/01/2026 11:41:53  INFO TestBase:66 - Properties loaded successfully
+01/01/2026 11:41:54  INFO WebDriverManager:1217 - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+01/01/2026 11:41:54  INFO WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\gonza\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+01/01/2026 11:41:54 DEBUG TestBase:78 - Chrome launched!!!
+01/01/2026 11:41:56 DEBUG TestBase:45 - Navigated to: https://practice-automation.com/
+01/01/2026 11:41:58  INFO TestBase:101 - Browser closed and test execution completed
+01/01/2026 11:43:10  INFO Listeners:79 - ========== STARTING TEST SUITE: Suite 1 ==========
+01/01/2026 11:43:10  INFO TestBase:56 - Log4j configured successfully
+01/01/2026 11:43:10  INFO TestBase:66 - Properties loaded successfully
+01/01/2026 11:43:10  INFO WebDriverManager:1217 - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+01/01/2026 11:43:10  INFO WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\gonza\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+01/01/2026 11:43:10 DEBUG TestBase:78 - Chrome launched!!!
+01/01/2026 11:43:12 DEBUG TestBase:45 - Navigated to: https://practice-automation.com/
+01/01/2026 11:43:12  INFO test_Accordions:18 - ========== STARTING TEST: testAccordionsLinks ==========
+01/01/2026 11:43:13  INFO test_Accordions:30 - ========== TEST PASSED: testAccordionsLinks ==========
+01/01/2026 11:43:14  INFO TestBase:101 - Browser closed and test execution completed
+01/01/2026 11:43:14  INFO TestBase:56 - Log4j configured successfully
+01/01/2026 11:43:14  INFO TestBase:66 - Properties loaded successfully
+01/01/2026 11:43:14  INFO WebDriverManager:1217 - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+01/01/2026 11:43:14  INFO WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\gonza\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+01/01/2026 11:43:14 DEBUG TestBase:78 - Chrome launched!!!
+01/01/2026 11:43:15 DEBUG TestBase:45 - Navigated to: https://practice-automation.com/
+01/01/2026 11:43:15  INFO test_AN_Ads:18 - ========== STARTING TEST: testAds ==========
+01/01/2026 11:43:22  INFO test_AN_Ads:30 - ========== TEST PASSED: testAds ==========
+01/01/2026 11:43:22  INFO TestBase:101 - Browser closed and test execution completed
+01/01/2026 11:43:22  INFO Listeners:85 - ========== FINISHED TEST SUITE: Suite 1 ==========

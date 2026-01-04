@@ -36,4 +36,11 @@ public abstract class BasePage {
         wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
     }
 
+    // 🔹 Enviar texto cuando el elemento es visible y clickeable
+    protected void sendKeysWhenClickable(WebElement element, String text) {
+        WebElement clickableElement = waitForClickable(element);
+        clickableElement.clear();
+        clickableElement.sendKeys(text);
+    }
+
 }

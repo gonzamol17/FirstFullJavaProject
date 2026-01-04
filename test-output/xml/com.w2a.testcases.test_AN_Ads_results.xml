@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7,558">
+           time="6,099">
   <properties />
   
   
-            <testcase name="testAds" time="7,558" classname="com.w2a.testcases.test_AN_Ads" />
+            <testcase name="testAds" time="6,099" classname="com.w2a.testcases.test_AN_Ads" />
       
 </testsuite>
