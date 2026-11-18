@@ -26,3 +26,10 @@
 01/01/2026 11:43:22  INFO test_AN_Ads:30 - ========== TEST PASSED: testAds ==========
 01/01/2026 11:43:22  INFO TestBase:101 - Browser closed and test execution completed
 01/01/2026 11:43:22  INFO Listeners:85 - ========== FINISHED TEST SUITE: Suite 1 ==========
+06/01/2026 18:10:28  INFO TestBase:56 - Log4j configured successfully
+06/01/2026 18:10:28  INFO TestBase:66 - Properties loaded successfully
+06/01/2026 18:10:29  INFO WebDriverManager:1217 - Using chromedriver 143.0.7499.169 (resolved driver for Chrome 143)
+06/01/2026 18:10:29  INFO WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\gonza\.cache\selenium\chromedriver\win64\143.0.7499.169\chromedriver.exe
+06/01/2026 18:10:29 DEBUG TestBase:78 - Chrome launched!!!
+06/01/2026 18:10:31 DEBUG TestBase:45 - Navigated to: https://practice-automation.com/
+06/01/2026 18:10:32  INFO TestBase:101 - Browser closed and test execution completed
